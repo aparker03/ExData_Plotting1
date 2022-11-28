@@ -14,4 +14,5 @@ gap_numeric <- as.numeric(SubsetData$Global_active_power)
 png(filename = "plot2.png", width = 480, height = 480)
 plot(date_time, gap_numeric, type = "l", xlab = "", 
      ylab = "Global Active Power (kilowatts)")
+
 dev.off()
